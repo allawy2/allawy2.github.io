@@ -504,7 +504,7 @@ to {
     /* mobile */
     @media (max-width: 476px) {
         html {
-            font-size: 60%;
+            font-size: 50%;
         }
 
         .simply-countdown>.simply-section {
