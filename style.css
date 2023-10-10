@@ -504,12 +504,12 @@ to {
     /* mobile */
     @media (max-width: 476px) {
         html {
-            font-size: 50%;
+            font-size: 40%;
         }
 
         .simply-countdown>.simply-section {
-            padding: 45px;
-            margin: 3px;
+            padding: 35px;
+            margin: 1.5px;
         }
 
         .timeline li .timeline-image {
