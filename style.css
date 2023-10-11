@@ -507,6 +507,15 @@ to {
             font-size: 45%;
         }
 
+        .mynavbar .nav-link {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .sticky-top {
+            overflow: hidden;
+        }
+
         .simply-countdown>.simply-section {
             padding: 35px;
             margin: 1.5px;
