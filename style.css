@@ -22,7 +22,10 @@ body {
     background-size: cover;
     background-position: center;
     z-index: -1;
-    filter: grayscale();
+    /* filter: grayscale(); */
+
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 90, rgba(0, 0, 0, 0));
 
 }
 
@@ -150,7 +153,7 @@ body {
 }
 
 .info {
-    background-color: #444;
+    background-color: #0f0808;
     color: white;
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -195,7 +198,7 @@ body {
     font-weight: 300;
 }
 
-.story, 
+.story,
 .galery,
 .rsvp,
 .gifts {
@@ -204,9 +207,9 @@ body {
 
 }
 
-.story span, 
+.story span,
 .galery span,
-.gifts span{
+.gifts span {
     text-transform: uppercase;
     color: #666;
     font-size: 0, 9rem;
@@ -337,7 +340,7 @@ body {
 
 
 .rsvp {
-    background-color: #1b0f0f;
+    background-color: #070707;
 }
 
 .rsvp h2 {
@@ -410,13 +413,13 @@ footer li {
 }
 
 @keyframes rotating {
-form {
-    transform: rotate(0);
-}
+    form {
+        transform: rotate(0);
+    }
 
-to {
-    transform: rotate(360deg);
-}
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -504,7 +507,7 @@ to {
     /* mobile */
     @media (max-width: 476px) {
         html {
-            font-size: 45%;
+            font-size: 50%;
         }
 
         .simply-countdown>.simply-section {
